@@ -1,0 +1,13 @@
+#include<stdio.h>
+int Calculate_Cube(int Number)
+    {
+	 return Number*Number*Number;
+    }
+
+void main()
+{
+  int number,cube;
+  scanf("%d", & number);
+ cube = Calculate_Cube(number);
+printf("\n Cube of the given number %d is =  %d", number, cube);
+}
